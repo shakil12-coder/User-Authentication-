@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+<div class="main">
+    <div class="login">
+
+        <h1 class="head-log">Login</h1>
+
+        <div class="login-form">
+           <img src="./images/login.jpg" alt="" srcset="">
+        </div>
+
+        <form action="/login" method="POST">
+
+        <input class="log-input" type="text" name="email" placeholder="Your Email">
+        <br>
+        <input class="log-input" type="password" name="password" placeholder="Password">
+
+        <label for="" class="check">
+            <input type="checkbox" value="remember-me">
+            Remember me
+        </label>
+        <input class="btn-login" type="submit" value="Sign in"></button>
+
+        </form>
+
+        <a   class="account" href="/register">create an account</a>
+     </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+*body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+header{
+    background-image: url("https://wallpaperaccess.com/full/148418.jpg");
+    height: 50vh;
+    width: 100vw;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+   left: 1000px;
+}
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.design{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 320px;
+    top: 135px;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+.container{
+    display: grid;
+    background-color: yellow;
+    grid-gap: 9px;
+    grid-template-columns: auto auto ;
+}
+.item{
+    background-color: aquamarine;
+    border:2px solid red;
+    width: 40vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+.head{
+    color: white;
+}
+
+#formsection{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:  url("https://images.unsplash.com/photo-1543252612-c0c6ea7fbb45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80");
+    background-position: center;
+}
+
+#form{
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    background: #fff;
+    padding: 5px;
+}
+
+
+.buttons{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 20px;
+    top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+}
+.toggle-btn{
+    position: relative;
+    padding: 15px 30px;
+    left: 45px;
+    background: transparent;
+    border: 0;
+    font-size: large;
+    cursor: pointer;
+}
+.input-group{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    transition: .1s;
+}
+.input{
+    width: 41%;
+    padding: 10px;
+    margin: 5px 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    line-height: 2;
+}
+.btn{
+    width: 85%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+}
+.gender{
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.male{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.female{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:  url("https://images.unsplash.com/photo-1543252612-c0c6ea7fbb45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80");
+    background-position: center;
+}
+
+.login{
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    background-color: burlywood;
+}
+.head-log{
+    position: relative;
+    border: 1px solid blue;
+    width: 50%;
+    left: 25%;
+    bottom: 5%;
+    color: blue;
+    background-color: cyan;
+    border-radius: 17px;
+}
+img{
+    position: relative;
+    left: 35%;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.log-input{
+
+    width: 60%;
+    padding: 10px;
+    margin: 5px 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    line-height: 2;
+    position: relative;
+    left:20%;
+    line-height: 2;
+}
+
+
+.btn-login{
+    width: 85%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff10af,#ffad06);
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 75%;
+    left: 6%;
+   
+}
+.account{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+.check{
+    position: absolute;
+    left: 23%;
+    top: 67%;
+}
